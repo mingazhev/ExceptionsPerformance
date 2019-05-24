@@ -1,0 +1,137 @@
+###################
+# compiled source #
+###################
+*.com
+*.class
+
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+# Include dlls if they�re in the NuGet packages directory
+!/packages/*/lib/*.dll
+!/packages/*/lib/*/*.dll
+# Include dlls if they're in the CommonReferences directory
+!*CommonReferences/*.dll
+####################
+# VS Upgrade stuff #
+####################
+UpgradeLog.XML
+_UpgradeReport_Files/
+###############
+# Directories #
+###############
+bin/
+obj/
+TestResults/
+.svn/
+###################
+# Web publish log #
+###################
+*.Publish.xml
+#############
+# Resharper #
+#############
+/_ReSharper.*
+*.ReSharper.*
+############
+# Packages #
+############
+# it�s better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+######################
+# Logs and databases #
+######################
+*.log
+*.sqlite
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+[Bb]in
+[Oo]bj
+[Tt]est[Rr]esults
+*.suo
+*.user
+*.[Cc]ache
+*[Rr]esharper*
+# packages
+NuGet.exe
+*.nupkg
+*.ncrunchsolution
+*.dot[Cc]over
+*.map
+Web/TreppPort.Web/Scripts/index.js
+Web/TreppPort.Web/Scripts/ie-fixes.js
+Web/TreppPort.Web/Scripts/on-board.js
+Web/TreppPort.Web/Scripts/public.js
+Web/TreppPort.Web/Scripts/common.js
+Web/TreppPort.Web/Scripts/polyfills.js
+Web/TreppPort.Web/Scripts/vendor.js
+Web/TreppPort.Web/Scripts/commons.js
+Web/TreppPort.Web/Styles/index.css
+Web/TreppPort.Web/Styles/ie-fixes.css
+Web/TreppPort.Web/Styles/on-board.css
+Web/TreppPort.Web/Styles/public.css
+Web/TreppPort.favdoc
+packages
+Backend/Lib/TreppPort.Platform.Bll.Tests.SpecFlow/Data/Features/ReportGeneration.feature.cs
+Backend/Lib/TreppPort.Platform.Bll.Tests.SpecFlow/Data/Features/SanityCheck.feature.cs
+Backend/Lib/TreppPort.Platform.Bll.Tests.SpecFlow/Data/SimplePeachTree/SimplePeachTree.feature.cs
+/.vs/VSWorkspaceState.json
+*.feature.cs
+# Others
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
+.vs/
+/Build/Package
+/Backend/Lib/TreppPort.Calculations/Resources/x64/*.exp
+/Backend/Lib/TreppPort.Calculations/Resources/x64/*.iobj
+/Backend/Lib/TreppPort.Calculations/Resources/x64/*.ipdb
+/Backend/Lib/TreppPort.Calculations/Resources/x64/*.lib
+/Backend/Lib/TreppPort.Calculations/Resources/x64/*.pdb
+/Backend/Lib/TreppPort.Calculations/Resources/x86/*.exp
+/Backend/Lib/TreppPort.Calculations/Resources/x86/*.iobj
+/Backend/Lib/TreppPort.Calculations/Resources/x86/*.ipdb
+/Backend/Lib/TreppPort.Calculations/Resources/x86/*.lib
+/Backend/Lib/TreppPort.Calculations/Resources/x86/*.pdb
+Web/TreppPort.Web/coverage
+Web/TreppPort.Web/karma-result
+/Backend/Roko.SDK/Platform/HostController/HostController.AgentRunner/compiled
+Web/TreppPort.Web/package-lock.json
+/Web/TreppPort.Web/Styles/admin-shared.css
+/Web/TreppPort.Web/Scripts/admin-shared.js
+Web/TreppPort.Web/.vscode/
+/Backend/Utils/Bin
+/Backend/Tests/TreppPort.Platform.CE.Tests.Specflow/Features
+Backend/CeGeneratorLog.txt
+/Backend/Utils/ImportingTestTool/ImportFiles/*
+!/Backend/Utils/ImportingTestTool/ImportFiles/.gitkeep
+Web/TreppPort.Web/Styles/rockport.css
+Web/TreppPort.Web/Styles/moodys.css
+Web/TreppPort.Web/Scripts/rockport.js
+Web/TreppPort.Web/Scripts/moodys.js
+Backend/Tests/PerformanceTests/artifacts/
+Backend/Tests/PerformanceTests/junit-result.xml
+Backend/Tests/PerformanceTests/perf_result.xml
+Backend/Tests/PerformanceTests/perf_result_csv.csv
+modified_*.jmx
+Backend/Lib/TreppPort.Platform.Api.Tests.SpecFlow/Features/ImportExport/GeneratedFeatures/*.feature
