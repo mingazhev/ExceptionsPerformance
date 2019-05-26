@@ -10,7 +10,7 @@ namespace Benchmarker
 	public class ExceptionPerformanceTest
 	{
 		[Benchmark]
-		public void WithLoop_AllNotFound()
+		public void WithLoop_100PercentNotFound()
 		{
 			for (int i = 0; i < 10; i++)
 				MethodsUnderTest.ContainsValue_WithLoop("not_existing");
@@ -47,9 +47,16 @@ namespace Benchmarker
 				}
 			}
 		}
+		
+		[Benchmark]
+		public void WithLoop_AllFound()
+		{
+			for (int i = 0; i < 10; i++)
+				MethodsUnderTest.ContainsValue_WithLoop("name_100");
+		}
 
 		[Benchmark]
-		public void WithException_AllNotFound()
+		public void WithException_100PercentNotFound()
 		{
 			for (int i = 0; i < 10; i++)
 				MethodsUnderTest.ContainsField_WithException("not_existing");
@@ -85,6 +92,13 @@ namespace Benchmarker
 					MethodsUnderTest.ContainsField_WithException("name_100");
 				}
 			}
+		}
+		
+		[Benchmark]
+		public void WithException_AllFound()
+		{
+			for (int i = 0; i < 10; i++)
+				MethodsUnderTest.ContainsField_WithException("name_100");
 		}
 	}
 
